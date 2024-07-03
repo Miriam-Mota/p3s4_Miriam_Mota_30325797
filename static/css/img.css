@@ -1,0 +1,30 @@
+    body{
+        background-image: url(fondo3.png);
+        background-size:cover;
+        background-attachment: fixed;
+    }
+    
+    form{
+		
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        background:rgba(159, 158, 158, 0.7);
+        width:50%;
+        height:40vh;
+        margin:50px auto;
+        border-radius:20%;
+		
+    }
+    input{
+    	padding:10px;
+    	margin:10px;
+		border-radius: 10%;
+    }
+    label{
+		text-align:center;
+    	font-size: 30px;
+    	font-weight: bold;
+		border-radius: 10%;
+    }

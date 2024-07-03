@@ -1,0 +1,44 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+background-image:url(fondo3.png);
+background-size:cover;
+background-attachment:fixed;
+}
+.table{
+margin:50px auto;
+width:80%;
+background:rgba(235, 177, 42, 0.7);
+}
+table{
+ color:white;
+ width:100%;
+}
+h1{
+	color:rgb(39, 38, 38);
+	border-radius: 20%;
+	border-color: brown;
+	text-align:center;
+	margin-top:50px;
+	background-color: rgb(203, 251, 251);
+}
+td{
+	text-align:center;
+}
+#botonProductos{
+	background:rgb(29, 246, 221);
+	color:rgb(47, 46, 46);
+	text-decoration: none;
+	padding:6px;
+	margin:20px;
+	border-radius: 20%;
+	border-bottom: 10px;
+	border-color: gray;
+}
+#add{
+ height:5vh;
+}

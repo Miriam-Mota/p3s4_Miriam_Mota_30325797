@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   <%- include('header') -%>
+  <head>
+    <title>Tienda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+   <header>
+    <div class="logo">
+      <h1>Creations Miss Meow</h1>
+      <h3>Pasteleria a Domicilio</h3>
+    </div>
+    <nav>
+      <a href="#" class="selected">Home</a>
+      <a href="#">Contacto</a>
+      <a target="_blank" href="/productos" class="form_contact">Productos</a>
+      <a target="_blank" href="/productos" class="form_contact">Categorias</a>
+      <a target="_blank" href="/productos" class="form_contact">Compras</a>
+      <a target="_blank" href="/productos" class="form_contact">Favoritos</a>
+      <a target="_blank" href="/login" class="form_contact" id='botonProductos'>Admin</a>
+    </nav>
+   </header>
+   <section id="home">
+    <div class="fila">
+      <div class="izq">
+          <img src="/img/prote.png">
+      </div>
+      <div class="der">
+        <h2>¡¡ Endulza Tu Dia !!</h2>
+        <h2 class="destacado">Al Alcance De Tu Mano</h2>
+        <p>Disfruta el arte de la reposteria </p>
+        <p>Mucha variedad</p>
+        <p>Execelente calidad</p>
+        <div class="opciones">
+          <span class="opcion">Postres</span>
+          <span class="opcion">Tortas</span>
+          <span class="opcion">Promociones</span>
+        </div>
+        <div class="contacto">
+          <button>VER VIDEO</button>
+          <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          <p class="direccion"> Ciudad Sprinfield Avenida siempre viva #555</p>
+        </div>
+      </div>
+    </div>
+   </section>
+   <%- include('footer') -%>
+  </body>
+</html>
